@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
+
+
+:root {
+    --white-main: #FFFFFF;
+    --gray: #C0C0C0;
+    --blue-button: #167BF7;
+    --color-backg: #00030C;
+    --bt-azul-efeito: #65a7f7;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--color-backg);
+    color: var(--white-main);
+    font-family: "Inter", sans-serif;
+}
+
+/*
+Main é realacionada o background da página
+*/
+
+.main {
+    background-image: url(img/Background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+/*Relacionado a Estrutura da página dividindo emcolunas e exibindo em 100 da tela*/
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.container__box {
+    margin: 0 6em 0 6em;
+}
+
+
+
+.container-titulo {
+    font-size: 28px;
+
+}
+
+.text-paragraph {
+    margin-top: 0.5em;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.container-imag {
+    margin: 1em 0 2em 0;
+}
+
+/*Buttons anchors*/
+.container__button {
+    background-color: var(--blue-button);
+    color: var(--white-main);
+    border-radius: 6px;
+    margin-bottom: 1em;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+.button-secundary {
+    font-weight: 400;
+    background-color: transparent;
+    border: 3px solid var(--gray);
+    color: var(--white-main);
+    border-radius: 6px;
+    padding: 1em;
+    display: block;
+    text-decoration: none;
+}
+
+
+.main__secundary {
+    margin: 0 6em;
+    align-items: center;
+}
+
+
+.container-titulo-secundary {
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+    color: var(--white-main);
+}
+
+.text-paragraph-secundary {
+    font-size: 16px;
+
+    font-weight: 400;
+    color: var(--gray);
+}
+
+.imag-Secundary {
+    width: 498px;
+    height: 590px;
+    margin-left: 10em;
+
+}
+
+.container__box__secundary {
+    margin-left: 6em;
+}
+
+.container__button__secundary {
+    background-color: var(--blue-button);
+    color: var(--white-main);
+    border-radius: 8px;
+    margin-bottom: 1em;
+    margin-top: 16px;
+    padding: 16px;
+    width: 162px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.imag-third {
+    width: 496px;
+    height: 338.96px;
+    margin-left: 7em;
+}
+
+.imag-fourth {
+    width: 547px;
+    height: 324px;
+    margin-left: 7em;
+}
+
+.devices {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+
+    margin-top: 5em;
+}
+
+.devices-title {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 0.1em;
+    margin-left: 0.5em;
+    color: var(--white-main);
+}
+
+
+.text-devices {
+
+    text-align: center;
+    justify-items: center;
+}
+
+.imag-footer {
+    margin: 0 0 6em;
+}
+
+.footer {
+    margin: 10em 10em 3em;
+    text-align: center;
+    justify-items: center;
+}
+
+.list__links {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 0 2em;
+}
+
+.links {
+    text-decoration: none;
+    color: var(--gray);
+    padding: 0.99em;
+    font-size: 14px;
+}
+
+.rodape__texto {
+    margin-top: 2.5em;
+    text-align: center;
+}
+
+.list__links a:hover{
+    color: var(--blue-button);
+}
+
+.list__links a:active{
+    color: red;
+}
+
+.container__box a:hover{
+    background-color: var(--bt-azul-efeito);
+    color: var(--color-backg);
+}
