@@ -53,9 +53,10 @@ Main é realacionada o background da página
 
 .text-paragraph {
     margin-top: 0.5em;
-    font-size: 16px;
+    font-size: 13px;
     font-weight: 400;
     color: var(--gray);
+
 }
 
 .container-imag {
@@ -100,15 +101,15 @@ Main é realacionada o background da página
 
 .text-paragraph-secundary {
     font-size: 16px;
-
     font-weight: 400;
     color: var(--gray);
+    text-align: justify;
 }
 
 .imag-Secundary {
     width: 498px;
     height: 590px;
-    margin-left: 10em;
+    margin-left: 5em;
 
 }
 
@@ -138,7 +139,6 @@ Main é realacionada o background da página
 .imag-fourth {
     width: 547px;
     height: 324px;
-    margin-left: 7em;
 }
 
 .devices {
@@ -187,7 +187,7 @@ Main é realacionada o background da página
 .links {
     text-decoration: none;
     color: var(--gray);
-    padding: 0.99em;
+    padding: 0.24em;
     font-size: 14px;
 }
 
@@ -196,15 +196,15 @@ Main é realacionada o background da página
     text-align: center;
 }
 
-.list__links a:hover{
+.list__links a:hover {
     color: var(--blue-button);
 }
 
-.list__links a:active{
+.list__links a:active {
     color: red;
 }
 
-.container__box a:hover{
+.container__box a:hover {
     background-color: var(--bt-azul-efeito);
     color: var(--color-backg);
 }
